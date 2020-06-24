@@ -5,9 +5,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]
-    private float carSpeed = 5.0f;
+    private float carSpeed = 25.0f;
     [SerializeField]
-    private float turnSpeed;
+    private float turnSpeed = 5.0f;
     [SerializeField]
     private float horizontalInput;
     [SerializeField]
